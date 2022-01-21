@@ -28,6 +28,7 @@ function UserSearch() {
     return (
       <div className='grid grid-cols-1 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 mb-8 gap-8'>
         <div>
+          <p className='mb-4 text-2xl font-light'>Let's stalk someone on Github</p>
           <form onSubmit={handleSubmit}>
             <div className='form-control'>
               <div className='relative'>
